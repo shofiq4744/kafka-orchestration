@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  kafka:
+    consumer:
+      group-id: somch-group
+      auto-offset-reset: earliest
+    # change this property if you are using your own
+    # Kafka cluster or your Docker IP is different
+    bootstrap-servers: localhost:9092
+
+somch:
+  topic-name: somch-payment

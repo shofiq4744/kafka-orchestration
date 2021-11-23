@@ -1,0 +1,4 @@
+server:
+  port: 9770
+somch:
+  topic-name: somch-payment
